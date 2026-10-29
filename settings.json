@@ -1,0 +1,44 @@
+{
+    // Interface:
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.iconTheme": "ayu",
+    "workbench.productIconTheme": "icons-carbon",
+    "workbench.browser.showInTitleBar": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+
+    // Editor:
+    "editor.fontFamily": "CaskaydiaCove Nerd Font Mono",
+    "chat.fontFamily": "default",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.4,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.fontLigatures": true,
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "editor.scrollBeyondLastLine": false,
+
+    // Formatadores:
+    "yaml.format.enable": true,
+    "yaml.format.singleQuote": false,
+    "yaml.schemaStore.enable": true,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.formatOnSave": true
+    },
+
+    // Gerenciamento de arquivos:
+    "files.autoSave": "off",
+    "editor.renderWhitespace": "none",
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.expandMode": "doubleClick",
+    "explorer.compactFolders": false,
+    "redhat.telemetry.enabled": true
+}
